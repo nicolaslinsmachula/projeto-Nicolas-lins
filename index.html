@@ -1,94 +1,71 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attack on Titan - Episódio 1</title>
+    <!-- Inclui o CDN do Tailwind CSS para um estilo moderno e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        /* Define a fonte Inter para toda a página */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #404040;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .episode-content {
-            background: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #b33939;
-        }
-        video {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #404040;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            margin-top: 20px;
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body>
+<body class="bg-slate-900 text-white min-h-screen flex flex-col">
 
-    <header>
-        <div class="container">
-            <h1>Attack on Titan - Episódio 1</h1>
-        </div>
+    <!-- Cabeçalho da Página -->
+    <header class="bg-gray-800 text-center py-6 shadow-lg">
+        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Attack on Titan</h1>
     </header>
 
-    <div class="container">
-        <div class="episode-content">
-            <h2>Episódio 1: Para Você, Daqui a 2000 Anos - A Queda de Shiganshina, Parte 1</h2>
+    <!-- Conteúdo Principal -->
+    <main class="flex-grow container mx-auto p-4 sm:p-8">
+        <div class="bg-gray-800 rounded-2xl shadow-xl overflow-hidden p-6 sm:p-10">
+            <h2 class="text-3xl font-extrabold text-red-500 mb-4 sm:text-4xl">
+                Episódio 1: Para Você, Daqui a 2000 Anos
+                <span class="block text-xl text-gray-400 mt-1 sm:text-2xl">- A Queda de Shiganshina, Parte 1</span>
+            </h2>
             
-            <p>
-                Neste episódio de abertura, somos apresentados ao mundo de <strong>Attack on Titan</strong>. A humanidade vive protegida dentro de três enormes muralhas concêntricas, que os defendem dos Titãs, gigantes humanoides que devoram pessoas. Essa paz, no entanto, dura há 100 anos.
-            </p>
-            
-            <p>
-                O protagonista, <strong>Eren Yeager</strong>, é um garoto que sonha em se juntar ao Corpo de Exploração para ver o mundo fora das muralhas. Ele vive na cidade de Shiganshina, localizada na Muralha Maria, junto com sua irmã adotiva <strong>Mikasa Ackerman</strong> e seu melhor amigo <strong>Armin Arlert</strong>.
-            </p>
-            
-            <p>
-                A paz é brutalmente interrompida quando um Titã Colossal, maior do que qualquer outro já visto, aparece de repente e abre um buraco na Muralha Maria. A cidade é invadida por Titãs menores, causando um caos indescritível.
+            <!-- Resumo do Episódio -->
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                Neste episódio de abertura, somos introduzidos ao mundo brutal de <strong>Attack on Titan</strong>. A humanidade vive confinada dentro de três enormes muralhas concêntricas - Maria, Rose e Sina - para se proteger dos Titãs, gigantes humanoides que devoram pessoas. Essa paz frágil dura há cem anos, e a maioria das pessoas, incluindo o protagonista <strong>Eren Yeager</strong>, cresceu sem nunca ter visto um Titã.
             </p>
 
-            <p>
-                O momento mais dramático do episódio ocorre quando a mãe de Eren é esmagada sob os escombros de sua casa. Ele e Mikasa tentam salvá-la, mas o soldado Hannes os resgata, levando-os embora enquanto a mãe de Eren é brutalmente devorada por um Titã. Este evento traumático marca o início da jornada de Eren e sua busca por vingança contra todos os Titãs.
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                Eren, junto com sua irmã adotiva <strong>Mikasa Ackerman</strong> e seu melhor amigo <strong>Armin Arlert</strong>, mora na cidade de Shiganshina, que se projeta para fora da Muralha Maria. Ele sonha em se juntar ao Corpo de Exploração para ver o mundo lá fora, um desejo que é considerado perigoso e imprudente pela maioria.
             </p>
 
-            <h3>Cena do Episódio</h3>
-            <p>Assista a um clipe oficial ou trailer do episódio:</p>
-            <video controls poster="https://via.placeholder.com/640x360.png?text=Capa+do+video">
-                <source src="https://www.youtube.com/watch?v=gLuFOAjUNwI.mp4" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo.
-            </video>
+            <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                A paz é abruptamente quebrada quando um Titã Colossal, uma criatura de tamanho inimaginável, aparece e chuta a Muralha Maria, abrindo uma brecha. A cidade é invadida por Titãs, e o caos se instala. Em meio à carnificina, o momento mais devastador é quando a mãe de Eren, esmagada sob os escombros, é devorada por um Titã enquanto Eren e Mikasa são forçados a assistir, sendo resgatados pelo soldado Hannes.
+            </p>
+
+            <p class="text-lg text-gray-300 leading-relaxed">
+                Este evento traumático é o catalisador que transforma o sonho de liberdade de Eren em um juramento de vingança para "matar todos os Titãs", iniciando a jornada implacável dos personagens.
+            </p>
+
+            <!-- Seção de Vídeo Incorporado -->
+            <div class="mt-8">
+                <h3 class="text-2xl font-bold text-red-500 mb-4">Assista à Cena do Episódio</h3>
+                <!-- Incorpora o vídeo do YouTube usando um iframe responsivo -->
+                <div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+                    <iframe 
+                        class="absolute inset-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/gLuFOAjUNwI" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 - Página de Fã de Attack on Titan. Conteúdo oficial de Shingeki no Kyojin.</p>
-        </div>
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 text-center py-4 mt-8 shadow-inner">
+        <p class="text-sm text-gray-400">&copy; 2024 - Conteúdo não-oficial de fã. Attack on Titan é de propriedade de Hajime Isayama, Kodansha e da equipe de produção do anime.</p>
     </footer>
 
 </body>
